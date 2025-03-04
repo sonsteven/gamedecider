@@ -1,0 +1,100 @@
+.html, body {
+  margin: 0
+}
+
+.main-container {
+  min-height: 100vh;
+  background-color: gray;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: blue;
+}
+
+.logo {
+  font-size: 40px;
+  padding-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.logout-btn, .sign-in-btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.logout-btn {
+  background-color: red;
+  color: white;
+}
+
+.logout-btn:hover {
+  background-color: #c53030;
+}
+
+.sign-in-btn {
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sign-in-btn:hover {
+  background-color: #0056b3;
+}
+
+.games-section {
+  padding: 20px;
+}
+
+.gs-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.games-list {
+  display: flex;
+  overflow-x: auto;
+  gap: 16px;
+  padding: 8px;
+}
+
+.game-card {
+  flex-shrink: 0;
+  width: 160px;
+  text-align: center;
+}
+
+.game-image {
+  width: 100%;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.game-name {
+  margin-top: 8px;
+}

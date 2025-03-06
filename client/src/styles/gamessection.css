@@ -1,0 +1,34 @@
+.games-section {
+    padding: 20px;
+  }
+  
+  .gs-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .games-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 8px;
+  }
+  
+  .game-card {
+    flex-shrink: 0;
+    width: 160px;
+    text-align: center;
+  }
+  
+  .game-image {
+    width: 100%;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .game-name {
+    margin-top: 8px;
+  }

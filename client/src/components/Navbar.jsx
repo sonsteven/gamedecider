@@ -1,5 +1,6 @@
 import React from "react"
 import { FaUserCircle } from "react-icons/fa"
+import "../styles/navbar.css"
 
 export default function Navbar({ user, setUser }) {
     return (
